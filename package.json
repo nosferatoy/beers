@@ -17,7 +17,7 @@
 	},
 	"scripts": {
 		"start": "parcel src/index.html --host 0.0.0.0",
-		"build": "parcel build src/index.html --out-dir production",
+		"build": "parcel build src/index.html --out-dir build",
 		"format": "prettier \"src/**/*.{js,html}\" --write",
 		"lint": "eslint 'src/**/*.js' --quiet",
 		"test": "jest",
@@ -45,6 +45,7 @@
 		"identity-obj-proxy": "^3.0.0",
 		"jest": "^26.4.2",
 		"jest-transform-stub": "^2.0.0",
+		"lint-staged": "^10.4.0",
 		"parcel-bundler": "^1.12.4",
 		"prettier": "^1.19.1"
 	},
