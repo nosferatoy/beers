@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Content component Render Content 1`] = `
+<div>
+  <main
+    class="content"
+  >
+    <div>
+      Test 1
+    </div>
+    <div>
+      Test 2
+    </div>
+    <div>
+      Test 3
+    </div>
+    <div>
+      Test 4
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Test Content component Render Content horizontaly 1`] = `
+<div>
+  <main
+    class="content content--hcenter"
+  >
+    <div>
+      Test 1
+    </div>
+    <div>
+      Test 2
+    </div>
+    <div>
+      Test 3
+    </div>
+    <div>
+      Test 4
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Test Content component Render Content no header 1`] = `
+<div>
+  <main
+    class="content content--noHeader"
+  >
+    <div>
+      Test 1
+    </div>
+    <div>
+      Test 2
+    </div>
+    <div>
+      Test 3
+    </div>
+    <div>
+      Test 4
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Test Content component Render Content padded 1`] = `
+<div>
+  <main
+    class="content content--padded"
+  >
+    <div>
+      Test 1
+    </div>
+    <div>
+      Test 2
+    </div>
+    <div>
+      Test 3
+    </div>
+    <div>
+      Test 4
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Test Content component Render Content verticaly 1`] = `
+<div>
+  <main
+    class="content content--vcenter"
+  >
+    <div>
+      Test 1
+    </div>
+    <div>
+      Test 2
+    </div>
+    <div>
+      Test 3
+    </div>
+    <div>
+      Test 4
+    </div>
+  </main>
+</div>
+`;

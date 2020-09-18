@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Text component Render Text - bold and color 1`] = `
+<div>
+  <div
+    class=" text-color-primary bold-bold"
+  >
+    Bold color text
+  </div>
+</div>
+`;
+
+exports[`Test Text component Render Text 1`] = `
+<div>
+  <div
+    class=""
+  >
+    Normal text
+  </div>
+</div>
+`;
+
+exports[`Test Text component Render Text Title 1`] = `
+<div>
+  <div
+    class=" text-xxlarge text-light"
+  >
+    Title text
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+.content {
+	--header-size: calc(var(--header-height) + 1rem);
+
+	margin: var(--header-size) auto 0 auto;
+	min-width: 320px;
+	max-width: 800px;
+
+	&--noHeader {
+		--header-size: 0px;
+	}
+
+	&--vcenter {
+		text-align: center;
+	}
+	&--hcenter {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: center;
+		> * {
+			flex: 1;
+		}
+	}
+
+	&--padded {
+		padding: 1rem;
+	}
+}

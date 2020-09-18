@@ -1,0 +1,38 @@
+$transition-time: 0.3s;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  will-change: transform;
+  z-index: 10;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  contain: content;
+
+  &__container {
+    flex: auto;
+    transition: $transition-time all;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__icon {
+    transition: $transition-time linear;
+    will-change: transform;
+    color:var(--color-primary);
+
+    &--left {
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+    }
+  }
+}
+

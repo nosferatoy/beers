@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component Render color 1`] = `
+<div>
+  <header
+    class="header"
+    style="background-color: rgb(0, 0, 0);"
+  >
+    <div
+      class="header__icon header__icon--left"
+    />
+    <div
+      class="header__container"
+    >
+      <div>
+        Test
+      </div>
+    </div>
+    <div
+      class="header__icon header__icon--right"
+    />
+  </header>
+</div>
+`;
+
+exports[`Test Header component Render left icon 1`] = `
+<div>
+  <header
+    class="header"
+    style="background-color: rgb(0, 0, 0);"
+  >
+    <div
+      class="header__icon header__icon--left"
+    >
+      <img
+        alt="logo"
+        src=""
+        style="height: 50px; width: 50px;"
+      />
+    </div>
+    <div
+      class="header__container"
+    >
+      <div>
+        Test
+      </div>
+    </div>
+    <div
+      class="header__icon header__icon--right"
+    />
+  </header>
+</div>
+`;
+
+exports[`Test Header component Render right icon 1`] = `
+<div>
+  <header
+    class="header"
+    style="background-color: rgb(0, 0, 0);"
+  >
+    <div
+      class="header__icon header__icon--left"
+    />
+    <div
+      class="header__container"
+    >
+      <div>
+        Test
+      </div>
+    </div>
+    <div
+      class="header__icon header__icon--right"
+    >
+      <img
+        alt="logo"
+        src=""
+        style="height: 50px; width: 50px;"
+      />
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test MessageBanner component Render MessageBanner Danger 1`] = `
+<div>
+  <div
+    class="message message__danger"
+  >
+    <p
+      class="message--text"
+    >
+      Danger Test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Test MessageBanner component Render MessageBanner Primary 1`] = `
+<div>
+  <div
+    class="message message__primary"
+  >
+    <p
+      class="message--text"
+    >
+      Primary Text
+    </p>
+  </div>
+</div>
+`;

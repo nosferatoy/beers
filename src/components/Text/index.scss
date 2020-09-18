@@ -1,0 +1,75 @@
+$baseFontSize: 16;
+
+$textSizes: (
+  xxsmall:10,
+  xsmall: 12,
+  small: 14,
+  normal: 16,
+  slarge: 18,
+  large: 21,
+  xlarge: 24,
+  xxlarge: 26,
+  title: 30,
+  xtitle: 36,
+  sheading: 45,
+  heading: 50,
+  xheading: 60
+);
+
+$colors: (
+  light: var(--color-ligth),
+  primary: var(--color-primary),
+  secondary: var(--color-secondary),
+  light-gray: var(--color-light-gray),
+  dark: var(--color-dark),
+  danger: var(--color-danger-dark),
+  light-green: var(--color-light-green)
+);
+
+$bold : (
+  "black": 900,
+  "heavy": 800,
+  "bold": 700,
+  "semibold": 600,
+  "medium": 500,
+  "regular": 400,
+  "thin": 300,
+  "light": 200,
+  "ultralight": 100
+);
+
+$opacity : (
+  "transparent": 0,
+  "xlow": 0.1,
+  "low": 0.3,
+  "medium": 0.5,
+  "high": 0.7,
+  "xhigh": 0.9,
+  "opaque": 1
+);
+
+@each $name, $value in $textSizes {
+  .text-#{$name} {
+    font-size: #{$value/$baseFontSize}rem;
+  }
+}
+
+@each $name, $value in $colors {
+  .text-#{$name} {
+    color: $value;
+  }
+}
+
+@each $name, $value in $opacity {
+  .opacity-#{$name} {
+    opacity: $value ;
+  }
+}
+
+@each $name, $value in $bold {
+  .bold-#{$name} {
+    font-weight: $value ;
+  }
+}
+
+
